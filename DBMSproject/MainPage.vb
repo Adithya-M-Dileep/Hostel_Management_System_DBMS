@@ -1315,4 +1315,7 @@ Public Class MainPage
 
     End Sub
 
+    Private Sub messEmployeeP_Paint(sender As Object, e As PaintEventArgs) Handles messEmployeeP.Paint
+
+    End Sub
 End Class

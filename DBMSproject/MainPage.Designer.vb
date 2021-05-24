@@ -23,7 +23,7 @@ Partial Class MainPage
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.leftPanel = New System.Windows.Forms.Panel()
         Me.ponbtn = New System.Windows.Forms.Panel()
         Me.Visitors = New System.Windows.Forms.Button()
@@ -203,17 +203,19 @@ Partial Class MainPage
         Me.leftPanel.Controls.Add(Me.Rooms)
         Me.leftPanel.Controls.Add(Me.student)
         Me.leftPanel.ForeColor = System.Drawing.Color.Chocolate
-        Me.leftPanel.Location = New System.Drawing.Point(-2, -1)
+        Me.leftPanel.Location = New System.Drawing.Point(-3, -1)
+        Me.leftPanel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.leftPanel.Name = "leftPanel"
-        Me.leftPanel.Size = New System.Drawing.Size(260, 692)
+        Me.leftPanel.Size = New System.Drawing.Size(347, 852)
         Me.leftPanel.TabIndex = 0
         '
         'ponbtn
         '
         Me.ponbtn.BackColor = System.Drawing.Color.Gold
-        Me.ponbtn.Location = New System.Drawing.Point(0, 67)
+        Me.ponbtn.Location = New System.Drawing.Point(0, 82)
+        Me.ponbtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ponbtn.Name = "ponbtn"
-        Me.ponbtn.Size = New System.Drawing.Size(25, 50)
+        Me.ponbtn.Size = New System.Drawing.Size(33, 62)
         Me.ponbtn.TabIndex = 3
         '
         'Visitors
@@ -223,9 +225,10 @@ Partial Class MainPage
         Me.Visitors.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Visitors.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Visitors.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Visitors.Location = New System.Drawing.Point(2, 624)
+        Me.Visitors.Location = New System.Drawing.Point(3, 768)
+        Me.Visitors.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Visitors.Name = "Visitors"
-        Me.Visitors.Size = New System.Drawing.Size(259, 44)
+        Me.Visitors.Size = New System.Drawing.Size(345, 54)
         Me.Visitors.TabIndex = 6
         Me.Visitors.Text = "Visitors"
         Me.Visitors.UseVisualStyleBackColor = True
@@ -238,9 +241,10 @@ Partial Class MainPage
         Me.MessEmp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.MessEmp.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MessEmp.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.MessEmp.Location = New System.Drawing.Point(3, 545)
+        Me.MessEmp.Location = New System.Drawing.Point(4, 671)
+        Me.MessEmp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MessEmp.Name = "MessEmp"
-        Me.MessEmp.Size = New System.Drawing.Size(258, 44)
+        Me.MessEmp.Size = New System.Drawing.Size(344, 54)
         Me.MessEmp.TabIndex = 4
         Me.MessEmp.Text = "Mess Employees"
         Me.MessEmp.UseVisualStyleBackColor = True
@@ -252,9 +256,10 @@ Partial Class MainPage
         Me.Hostel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Hostel.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Hostel.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Hostel.Location = New System.Drawing.Point(0, 466)
+        Me.Hostel.Location = New System.Drawing.Point(0, 574)
+        Me.Hostel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Hostel.Name = "Hostel"
-        Me.Hostel.Size = New System.Drawing.Size(261, 44)
+        Me.Hostel.Size = New System.Drawing.Size(348, 54)
         Me.Hostel.TabIndex = 6
         Me.Hostel.Text = "Hostel"
         Me.Hostel.UseVisualStyleBackColor = True
@@ -266,9 +271,10 @@ Partial Class MainPage
         Me.Fees.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Fees.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Fees.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Fees.Location = New System.Drawing.Point(0, 387)
+        Me.Fees.Location = New System.Drawing.Point(0, 476)
+        Me.Fees.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Fees.Name = "Fees"
-        Me.Fees.Size = New System.Drawing.Size(261, 44)
+        Me.Fees.Size = New System.Drawing.Size(348, 54)
         Me.Fees.TabIndex = 4
         Me.Fees.Text = "Fees"
         Me.Fees.UseVisualStyleBackColor = True
@@ -280,9 +286,10 @@ Partial Class MainPage
         Me.Mess.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Mess.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Mess.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Mess.Location = New System.Drawing.Point(0, 308)
+        Me.Mess.Location = New System.Drawing.Point(0, 379)
+        Me.Mess.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Mess.Name = "Mess"
-        Me.Mess.Size = New System.Drawing.Size(261, 44)
+        Me.Mess.Size = New System.Drawing.Size(348, 54)
         Me.Mess.TabIndex = 4
         Me.Mess.Text = "Mess"
         Me.Mess.UseVisualStyleBackColor = True
@@ -294,9 +301,10 @@ Partial Class MainPage
         Me.Furniture.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Furniture.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Furniture.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Furniture.Location = New System.Drawing.Point(0, 229)
+        Me.Furniture.Location = New System.Drawing.Point(0, 282)
+        Me.Furniture.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Furniture.Name = "Furniture"
-        Me.Furniture.Size = New System.Drawing.Size(261, 44)
+        Me.Furniture.Size = New System.Drawing.Size(348, 54)
         Me.Furniture.TabIndex = 4
         Me.Furniture.Text = "Furniture"
         Me.Furniture.UseVisualStyleBackColor = True
@@ -308,9 +316,10 @@ Partial Class MainPage
         Me.Rooms.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Rooms.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Rooms.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Rooms.Location = New System.Drawing.Point(0, 150)
+        Me.Rooms.Location = New System.Drawing.Point(0, 185)
+        Me.Rooms.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Rooms.Name = "Rooms"
-        Me.Rooms.Size = New System.Drawing.Size(261, 44)
+        Me.Rooms.Size = New System.Drawing.Size(348, 54)
         Me.Rooms.TabIndex = 4
         Me.Rooms.Text = "Rooms"
         Me.Rooms.UseVisualStyleBackColor = True
@@ -322,9 +331,10 @@ Partial Class MainPage
         Me.student.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.student.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.student.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.student.Location = New System.Drawing.Point(1, 71)
+        Me.student.Location = New System.Drawing.Point(1, 87)
+        Me.student.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.student.Name = "student"
-        Me.student.Size = New System.Drawing.Size(260, 44)
+        Me.student.Size = New System.Drawing.Size(347, 54)
         Me.student.TabIndex = 2
         Me.student.Text = "Students"
         Me.student.UseVisualStyleBackColor = True
@@ -333,9 +343,10 @@ Partial Class MainPage
         '
         Me.topPanel.BackColor = System.Drawing.Color.Yellow
         Me.topPanel.Controls.Add(Me.logOut)
-        Me.topPanel.Location = New System.Drawing.Point(258, -2)
+        Me.topPanel.Location = New System.Drawing.Point(344, -2)
+        Me.topPanel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.topPanel.Name = "topPanel"
-        Me.topPanel.Size = New System.Drawing.Size(1018, 60)
+        Me.topPanel.Size = New System.Drawing.Size(1357, 74)
         Me.topPanel.TabIndex = 1
         '
         'logOut
@@ -343,10 +354,10 @@ Partial Class MainPage
         Me.logOut.FlatAppearance.BorderSize = 0
         Me.logOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.logOut.Image = Global.DBMSproject.My.Resources.Resources.logout1
-        Me.logOut.Location = New System.Drawing.Point(859, 6)
-        Me.logOut.Margin = New System.Windows.Forms.Padding(2)
+        Me.logOut.Location = New System.Drawing.Point(1145, 7)
+        Me.logOut.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.logOut.Name = "logOut"
-        Me.logOut.Size = New System.Drawing.Size(40, 50)
+        Me.logOut.Size = New System.Drawing.Size(53, 62)
         Me.logOut.TabIndex = 0
         Me.logOut.UseVisualStyleBackColor = True
         '
@@ -373,9 +384,10 @@ Partial Class MainPage
         Me.studentsP.Controls.Add(Me.Label10)
         Me.studentsP.Controls.Add(Me.Label1)
         Me.studentsP.Controls.Add(Me.Label9)
-        Me.studentsP.Location = New System.Drawing.Point(258, 57)
+        Me.studentsP.Location = New System.Drawing.Point(344, 70)
+        Me.studentsP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.studentsP.Name = "studentsP"
-        Me.studentsP.Size = New System.Drawing.Size(1015, 634)
+        Me.studentsP.Size = New System.Drawing.Size(1353, 780)
         Me.studentsP.TabIndex = 2
         '
         'stdClear
@@ -385,9 +397,10 @@ Partial Class MainPage
         Me.stdClear.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stdClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.stdClear.Image = Global.DBMSproject.My.Resources.Resources.refresh11
-        Me.stdClear.Location = New System.Drawing.Point(650, 92)
+        Me.stdClear.Location = New System.Drawing.Point(867, 149)
+        Me.stdClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdClear.Name = "stdClear"
-        Me.stdClear.Size = New System.Drawing.Size(43, 35)
+        Me.stdClear.Size = New System.Drawing.Size(57, 43)
         Me.stdClear.TabIndex = 21
         Me.stdClear.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.stdClear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -400,9 +413,10 @@ Partial Class MainPage
         Me.stdUpdate.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stdUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.stdUpdate.Image = Global.DBMSproject.My.Resources.Resources.sace1
-        Me.stdUpdate.Location = New System.Drawing.Point(508, 566)
+        Me.stdUpdate.Location = New System.Drawing.Point(669, 686)
+        Me.stdUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdUpdate.Name = "stdUpdate"
-        Me.stdUpdate.Size = New System.Drawing.Size(124, 35)
+        Me.stdUpdate.Size = New System.Drawing.Size(165, 43)
         Me.stdUpdate.TabIndex = 36
         Me.stdUpdate.Text = "  Update"
         Me.stdUpdate.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -415,9 +429,10 @@ Partial Class MainPage
         Me.Label14.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Label14.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Label14.Font = New System.Drawing.Font("Modern No. 20", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(34, 18)
+        Me.Label14.Location = New System.Drawing.Point(45, 22)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(233, 41)
+        Me.Label14.Size = New System.Drawing.Size(290, 51)
         Me.Label14.TabIndex = 35
         Me.Label14.Text = "Student Info"
         '
@@ -428,9 +443,10 @@ Partial Class MainPage
         Me.stdView.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stdView.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.stdView.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.stdView.Location = New System.Drawing.Point(743, 566)
+        Me.stdView.Location = New System.Drawing.Point(983, 686)
+        Me.stdView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdView.Name = "stdView"
-        Me.stdView.Size = New System.Drawing.Size(124, 35)
+        Me.stdView.Size = New System.Drawing.Size(165, 43)
         Me.stdView.TabIndex = 22
         Me.stdView.Text = "   View All"
         Me.stdView.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -444,9 +460,10 @@ Partial Class MainPage
         Me.stdDelete.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stdDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.stdDelete.Image = Global.DBMSproject.My.Resources.Resources.delet
-        Me.stdDelete.Location = New System.Drawing.Point(297, 566)
+        Me.stdDelete.Location = New System.Drawing.Point(388, 686)
+        Me.stdDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdDelete.Name = "stdDelete"
-        Me.stdDelete.Size = New System.Drawing.Size(124, 35)
+        Me.stdDelete.Size = New System.Drawing.Size(165, 43)
         Me.stdDelete.TabIndex = 20
         Me.stdDelete.Text = " Delete"
         Me.stdDelete.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -460,9 +477,10 @@ Partial Class MainPage
         Me.stdAdd.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.stdAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.stdAdd.Image = Global.DBMSproject.My.Resources.Resources.add_members3
-        Me.stdAdd.Location = New System.Drawing.Point(74, 566)
+        Me.stdAdd.Location = New System.Drawing.Point(91, 686)
+        Me.stdAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdAdd.Name = "stdAdd"
-        Me.stdAdd.Size = New System.Drawing.Size(124, 35)
+        Me.stdAdd.Size = New System.Drawing.Size(165, 43)
         Me.stdAdd.TabIndex = 19
         Me.stdAdd.Text = "    Add"
         Me.stdAdd.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -477,9 +495,10 @@ Partial Class MainPage
         Me.stdSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.stdSearch.Image = Global.DBMSproject.My.Resources.Resources.search21
         Me.stdSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.stdSearch.Location = New System.Drawing.Point(516, 92)
+        Me.stdSearch.Location = New System.Drawing.Point(688, 149)
+        Me.stdSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdSearch.Name = "stdSearch"
-        Me.stdSearch.Size = New System.Drawing.Size(124, 35)
+        Me.stdSearch.Size = New System.Drawing.Size(165, 43)
         Me.stdSearch.TabIndex = 18
         Me.stdSearch.Text = "  Search"
         Me.stdSearch.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -489,58 +508,65 @@ Partial Class MainPage
         'stdId
         '
         Me.stdId.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.stdId.Location = New System.Drawing.Point(295, 93)
+        Me.stdId.Location = New System.Drawing.Point(393, 150)
+        Me.stdId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdId.Name = "stdId"
-        Me.stdId.Size = New System.Drawing.Size(215, 35)
+        Me.stdId.Size = New System.Drawing.Size(285, 42)
         Me.stdId.TabIndex = 17
         '
         'stdName
         '
         Me.stdName.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.stdName.Location = New System.Drawing.Point(295, 158)
+        Me.stdName.Location = New System.Drawing.Point(393, 230)
+        Me.stdName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdName.Name = "stdName"
-        Me.stdName.Size = New System.Drawing.Size(345, 35)
+        Me.stdName.Size = New System.Drawing.Size(459, 42)
         Me.stdName.TabIndex = 16
         '
         'fatName
         '
         Me.fatName.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fatName.Location = New System.Drawing.Point(295, 223)
+        Me.fatName.Location = New System.Drawing.Point(393, 310)
+        Me.fatName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fatName.Name = "fatName"
-        Me.fatName.Size = New System.Drawing.Size(345, 35)
+        Me.fatName.Size = New System.Drawing.Size(459, 42)
         Me.fatName.TabIndex = 15
         '
         'stdRoomId
         '
         Me.stdRoomId.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.stdRoomId.Location = New System.Drawing.Point(295, 288)
+        Me.stdRoomId.Location = New System.Drawing.Point(393, 390)
+        Me.stdRoomId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdRoomId.Name = "stdRoomId"
-        Me.stdRoomId.Size = New System.Drawing.Size(345, 35)
+        Me.stdRoomId.Size = New System.Drawing.Size(459, 42)
         Me.stdRoomId.TabIndex = 14
         '
         'stdMobNumber
         '
         Me.stdMobNumber.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.stdMobNumber.Location = New System.Drawing.Point(295, 353)
+        Me.stdMobNumber.Location = New System.Drawing.Point(393, 470)
+        Me.stdMobNumber.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stdMobNumber.Name = "stdMobNumber"
-        Me.stdMobNumber.Size = New System.Drawing.Size(345, 35)
+        Me.stdMobNumber.Size = New System.Drawing.Size(459, 42)
         Me.stdMobNumber.TabIndex = 13
         '
         'dob
         '
         Me.dob.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dob.Location = New System.Drawing.Point(295, 418)
+        Me.dob.Location = New System.Drawing.Point(393, 550)
+        Me.dob.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dob.Name = "dob"
-        Me.dob.Size = New System.Drawing.Size(345, 35)
+        Me.dob.Size = New System.Drawing.Size(459, 42)
         Me.dob.TabIndex = 11
         '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(95, 418)
+        Me.Label15.Location = New System.Drawing.Point(127, 550)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(150, 28)
+        Me.Label15.Size = New System.Drawing.Size(183, 36)
         Me.Label15.TabIndex = 8
         Me.Label15.Text = "Date.Of.Birth"
         '
@@ -548,9 +574,10 @@ Partial Class MainPage
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(95, 353)
+        Me.Label13.Location = New System.Drawing.Point(127, 470)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(166, 28)
+        Me.Label13.Size = New System.Drawing.Size(203, 36)
         Me.Label13.TabIndex = 6
         Me.Label13.Text = "Mobile Number"
         '
@@ -558,9 +585,10 @@ Partial Class MainPage
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(95, 288)
+        Me.Label12.Location = New System.Drawing.Point(127, 390)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(100, 28)
+        Me.Label12.Size = New System.Drawing.Size(123, 36)
         Me.Label12.TabIndex = 5
         Me.Label12.Text = "Room Id"
         '
@@ -568,9 +596,10 @@ Partial Class MainPage
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(95, 223)
+        Me.Label11.Location = New System.Drawing.Point(127, 310)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(158, 28)
+        Me.Label11.Size = New System.Drawing.Size(195, 36)
         Me.Label11.TabIndex = 4
         Me.Label11.Text = "Father's Name"
         '
@@ -578,9 +607,10 @@ Partial Class MainPage
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(95, 158)
+        Me.Label10.Location = New System.Drawing.Point(127, 230)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(70, 28)
+        Me.Label10.Size = New System.Drawing.Size(86, 36)
         Me.Label10.TabIndex = 3
         Me.Label10.Text = "Name"
         '
@@ -588,19 +618,19 @@ Partial Class MainPage
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(95, 93)
+        Me.Label1.Location = New System.Drawing.Point(127, 150)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(115, 28)
+        Me.Label1.Size = New System.Drawing.Size(143, 36)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Student Id"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(956, 54)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Location = New System.Drawing.Point(1275, 66)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(24, 13)
+        Me.Label9.Size = New System.Drawing.Size(30, 17)
         Me.Label9.TabIndex = 1
         Me.Label9.Text = "text"
         '
@@ -622,17 +652,19 @@ Partial Class MainPage
         Me.roomsP.Controls.Add(Me.rnFurTd)
         Me.roomsP.Controls.Add(Me.Label18)
         Me.roomsP.Controls.Add(Me.Label19)
-        Me.roomsP.Location = New System.Drawing.Point(260, 58)
+        Me.roomsP.Location = New System.Drawing.Point(347, 71)
+        Me.roomsP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.roomsP.Name = "roomsP"
-        Me.roomsP.Size = New System.Drawing.Size(1015, 634)
+        Me.roomsP.Size = New System.Drawing.Size(1353, 780)
         Me.roomsP.TabIndex = 4
         '
         'rmFurID
         '
         Me.rmFurID.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rmFurID.Location = New System.Drawing.Point(346, 280)
+        Me.rmFurID.Location = New System.Drawing.Point(435, 369)
+        Me.rmFurID.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmFurID.Name = "rmFurID"
-        Me.rmFurID.Size = New System.Drawing.Size(345, 35)
+        Me.rmFurID.Size = New System.Drawing.Size(459, 42)
         Me.rmFurID.TabIndex = 36
         '
         'rmUpdate
@@ -642,9 +674,10 @@ Partial Class MainPage
         Me.rmUpdate.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rmUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.rmUpdate.Image = Global.DBMSproject.My.Resources.Resources.sace1
-        Me.rmUpdate.Location = New System.Drawing.Point(529, 480)
+        Me.rmUpdate.Location = New System.Drawing.Point(688, 625)
+        Me.rmUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmUpdate.Name = "rmUpdate"
-        Me.rmUpdate.Size = New System.Drawing.Size(124, 35)
+        Me.rmUpdate.Size = New System.Drawing.Size(165, 43)
         Me.rmUpdate.TabIndex = 35
         Me.rmUpdate.Text = "  Update"
         Me.rmUpdate.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -656,9 +689,10 @@ Partial Class MainPage
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Label2.Font = New System.Drawing.Font("Modern No. 20", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(50, 45)
+        Me.Label2.Location = New System.Drawing.Point(45, 48)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(201, 41)
+        Me.Label2.Size = New System.Drawing.Size(250, 51)
         Me.Label2.TabIndex = 34
         Me.Label2.Text = "Room Info"
         '
@@ -669,9 +703,10 @@ Partial Class MainPage
         Me.rmView.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rmView.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.rmView.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.rmView.Location = New System.Drawing.Point(752, 481)
+        Me.rmView.Location = New System.Drawing.Point(986, 626)
+        Me.rmView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmView.Name = "rmView"
-        Me.rmView.Size = New System.Drawing.Size(124, 35)
+        Me.rmView.Size = New System.Drawing.Size(165, 43)
         Me.rmView.TabIndex = 33
         Me.rmView.Text = "   View All"
         Me.rmView.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -684,9 +719,10 @@ Partial Class MainPage
         Me.rmClear.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rmClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.rmClear.Image = Global.DBMSproject.My.Resources.Resources.refresh11
-        Me.rmClear.Location = New System.Drawing.Point(697, 151)
+        Me.rmClear.Location = New System.Drawing.Point(903, 210)
+        Me.rmClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmClear.Name = "rmClear"
-        Me.rmClear.Size = New System.Drawing.Size(41, 38)
+        Me.rmClear.Size = New System.Drawing.Size(55, 47)
         Me.rmClear.TabIndex = 32
         Me.rmClear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.rmClear.UseVisualStyleBackColor = False
@@ -698,9 +734,10 @@ Partial Class MainPage
         Me.rmDelete.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rmDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.rmDelete.Image = Global.DBMSproject.My.Resources.Resources.delet
-        Me.rmDelete.Location = New System.Drawing.Point(306, 481)
+        Me.rmDelete.Location = New System.Drawing.Point(391, 626)
+        Me.rmDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmDelete.Name = "rmDelete"
-        Me.rmDelete.Size = New System.Drawing.Size(124, 35)
+        Me.rmDelete.Size = New System.Drawing.Size(165, 43)
         Me.rmDelete.TabIndex = 31
         Me.rmDelete.Text = " Delete"
         Me.rmDelete.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -713,9 +750,10 @@ Partial Class MainPage
         Me.rmAdd.FlatAppearance.BorderSize = 0
         Me.rmAdd.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rmAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.rmAdd.Location = New System.Drawing.Point(83, 481)
+        Me.rmAdd.Location = New System.Drawing.Point(94, 626)
+        Me.rmAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmAdd.Name = "rmAdd"
-        Me.rmAdd.Size = New System.Drawing.Size(124, 35)
+        Me.rmAdd.Size = New System.Drawing.Size(165, 43)
         Me.rmAdd.TabIndex = 30
         Me.rmAdd.Text = "Add"
         Me.rmAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -729,9 +767,10 @@ Partial Class MainPage
         Me.rmSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.rmSearch.Image = Global.DBMSproject.My.Resources.Resources.search21
         Me.rmSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.rmSearch.Location = New System.Drawing.Point(565, 154)
+        Me.rmSearch.Location = New System.Drawing.Point(727, 214)
+        Me.rmSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmSearch.Name = "rmSearch"
-        Me.rmSearch.Size = New System.Drawing.Size(124, 35)
+        Me.rmSearch.Size = New System.Drawing.Size(165, 43)
         Me.rmSearch.TabIndex = 29
         Me.rmSearch.Text = "  Search"
         Me.rmSearch.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -741,34 +780,38 @@ Partial Class MainPage
         'rmId
         '
         Me.rmId.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rmId.Location = New System.Drawing.Point(344, 155)
+        Me.rmId.Location = New System.Drawing.Point(433, 215)
+        Me.rmId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmId.Name = "rmId"
-        Me.rmId.Size = New System.Drawing.Size(215, 35)
+        Me.rmId.Size = New System.Drawing.Size(285, 42)
         Me.rmId.TabIndex = 28
         '
         'rmCap
         '
         Me.rmCap.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rmCap.Location = New System.Drawing.Point(344, 220)
+        Me.rmCap.Location = New System.Drawing.Point(433, 295)
+        Me.rmCap.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmCap.Name = "rmCap"
-        Me.rmCap.Size = New System.Drawing.Size(345, 35)
+        Me.rmCap.Size = New System.Drawing.Size(459, 42)
         Me.rmCap.TabIndex = 27
         '
         'rmBdNum
         '
         Me.rmBdNum.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rmBdNum.Location = New System.Drawing.Point(344, 350)
+        Me.rmBdNum.Location = New System.Drawing.Point(433, 455)
+        Me.rmBdNum.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rmBdNum.Name = "rmBdNum"
-        Me.rmBdNum.Size = New System.Drawing.Size(345, 35)
+        Me.rmBdNum.Size = New System.Drawing.Size(459, 42)
         Me.rmBdNum.TabIndex = 25
         '
         'rnBudNum
         '
         Me.rnBudNum.AutoSize = True
         Me.rnBudNum.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rnBudNum.Location = New System.Drawing.Point(144, 350)
+        Me.rnBudNum.Location = New System.Drawing.Point(166, 455)
+        Me.rnBudNum.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.rnBudNum.Name = "rnBudNum"
-        Me.rnBudNum.Size = New System.Drawing.Size(185, 28)
+        Me.rnBudNum.Size = New System.Drawing.Size(225, 36)
         Me.rnBudNum.TabIndex = 22
         Me.rnBudNum.Text = "Building Number"
         '
@@ -776,9 +819,10 @@ Partial Class MainPage
         '
         Me.rnFurTd.AutoSize = True
         Me.rnFurTd.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rnFurTd.Location = New System.Drawing.Point(144, 285)
+        Me.rnFurTd.Location = New System.Drawing.Point(166, 375)
+        Me.rnFurTd.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.rnFurTd.Name = "rnFurTd"
-        Me.rnFurTd.Size = New System.Drawing.Size(140, 28)
+        Me.rnFurTd.Size = New System.Drawing.Size(173, 36)
         Me.rnFurTd.TabIndex = 21
         Me.rnFurTd.Text = "Furniture ID"
         '
@@ -786,9 +830,10 @@ Partial Class MainPage
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(144, 220)
+        Me.Label18.Location = New System.Drawing.Point(166, 295)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(98, 28)
+        Me.Label18.Size = New System.Drawing.Size(122, 36)
         Me.Label18.TabIndex = 20
         Me.Label18.Text = "Capacity"
         '
@@ -796,9 +841,10 @@ Partial Class MainPage
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(144, 155)
+        Me.Label19.Location = New System.Drawing.Point(166, 215)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(100, 28)
+        Me.Label19.Size = New System.Drawing.Size(123, 36)
         Me.Label19.TabIndex = 19
         Me.Label19.Text = "Room Id"
         '
@@ -816,9 +862,10 @@ Partial Class MainPage
         Me.furnitureP.Controls.Add(Me.fType)
         Me.furnitureP.Controls.Add(Me.Label24)
         Me.furnitureP.Controls.Add(Me.Label25)
-        Me.furnitureP.Location = New System.Drawing.Point(260, 58)
+        Me.furnitureP.Location = New System.Drawing.Point(347, 71)
+        Me.furnitureP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.furnitureP.Name = "furnitureP"
-        Me.furnitureP.Size = New System.Drawing.Size(1015, 634)
+        Me.furnitureP.Size = New System.Drawing.Size(1353, 780)
         Me.furnitureP.TabIndex = 5
         '
         'fUpdate
@@ -828,9 +875,10 @@ Partial Class MainPage
         Me.fUpdate.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.fUpdate.Image = Global.DBMSproject.My.Resources.Resources.sace1
-        Me.fUpdate.Location = New System.Drawing.Point(513, 549)
+        Me.fUpdate.Location = New System.Drawing.Point(684, 645)
+        Me.fUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fUpdate.Name = "fUpdate"
-        Me.fUpdate.Size = New System.Drawing.Size(124, 35)
+        Me.fUpdate.Size = New System.Drawing.Size(165, 43)
         Me.fUpdate.TabIndex = 56
         Me.fUpdate.Text = "  Update"
         Me.fUpdate.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -843,9 +891,10 @@ Partial Class MainPage
         Me.Label3.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Label3.Font = New System.Drawing.Font("Modern No. 20", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(52, 26)
+        Me.Label3.Location = New System.Drawing.Point(69, 32)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(273, 41)
+        Me.Label3.Size = New System.Drawing.Size(339, 51)
         Me.Label3.TabIndex = 55
         Me.Label3.Text = "Furniture Info"
         '
@@ -856,9 +905,10 @@ Partial Class MainPage
         Me.fView.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fView.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.fView.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.fView.Location = New System.Drawing.Point(748, 549)
+        Me.fView.Location = New System.Drawing.Point(997, 645)
+        Me.fView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fView.Name = "fView"
-        Me.fView.Size = New System.Drawing.Size(124, 35)
+        Me.fView.Size = New System.Drawing.Size(165, 43)
         Me.fView.TabIndex = 54
         Me.fView.Text = "   View All"
         Me.fView.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -871,9 +921,10 @@ Partial Class MainPage
         Me.fClear.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.fClear.Image = Global.DBMSproject.My.Resources.Resources.refresh11
-        Me.fClear.Location = New System.Drawing.Point(691, 172)
+        Me.fClear.Location = New System.Drawing.Point(900, 239)
+        Me.fClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fClear.Name = "fClear"
-        Me.fClear.Size = New System.Drawing.Size(47, 38)
+        Me.fClear.Size = New System.Drawing.Size(63, 47)
         Me.fClear.TabIndex = 53
         Me.fClear.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.fClear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -886,9 +937,10 @@ Partial Class MainPage
         Me.fDelete.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.fDelete.Image = Global.DBMSproject.My.Resources.Resources.delet
-        Me.fDelete.Location = New System.Drawing.Point(302, 549)
+        Me.fDelete.Location = New System.Drawing.Point(403, 645)
+        Me.fDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fDelete.Name = "fDelete"
-        Me.fDelete.Size = New System.Drawing.Size(124, 35)
+        Me.fDelete.Size = New System.Drawing.Size(165, 43)
         Me.fDelete.TabIndex = 52
         Me.fDelete.Text = " Delete"
         Me.fDelete.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -902,9 +954,10 @@ Partial Class MainPage
         Me.fAdd.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.fAdd.Image = Global.DBMSproject.My.Resources.Resources.add_members3
-        Me.fAdd.Location = New System.Drawing.Point(79, 549)
+        Me.fAdd.Location = New System.Drawing.Point(105, 645)
+        Me.fAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fAdd.Name = "fAdd"
-        Me.fAdd.Size = New System.Drawing.Size(124, 35)
+        Me.fAdd.Size = New System.Drawing.Size(165, 43)
         Me.fAdd.TabIndex = 51
         Me.fAdd.Text = "    Add"
         Me.fAdd.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -919,9 +972,10 @@ Partial Class MainPage
         Me.fSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.fSearch.Image = Global.DBMSproject.My.Resources.Resources.search21
         Me.fSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.fSearch.Location = New System.Drawing.Point(556, 173)
+        Me.fSearch.Location = New System.Drawing.Point(720, 240)
+        Me.fSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fSearch.Name = "fSearch"
-        Me.fSearch.Size = New System.Drawing.Size(124, 35)
+        Me.fSearch.Size = New System.Drawing.Size(165, 43)
         Me.fSearch.TabIndex = 50
         Me.fSearch.Text = "  Search"
         Me.fSearch.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -931,26 +985,29 @@ Partial Class MainPage
         'fId
         '
         Me.fId.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fId.Location = New System.Drawing.Point(335, 173)
+        Me.fId.Location = New System.Drawing.Point(426, 240)
+        Me.fId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fId.Name = "fId"
-        Me.fId.Size = New System.Drawing.Size(215, 35)
+        Me.fId.Size = New System.Drawing.Size(285, 42)
         Me.fId.TabIndex = 49
         '
         'fType
         '
         Me.fType.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fType.Location = New System.Drawing.Point(335, 311)
+        Me.fType.Location = New System.Drawing.Point(426, 410)
+        Me.fType.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.fType.Name = "fType"
-        Me.fType.Size = New System.Drawing.Size(345, 35)
+        Me.fType.Size = New System.Drawing.Size(459, 42)
         Me.fType.TabIndex = 48
         '
         'Label24
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(133, 318)
+        Me.Label24.Location = New System.Drawing.Point(156, 418)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(162, 28)
+        Me.Label24.Size = New System.Drawing.Size(202, 36)
         Me.Label24.TabIndex = 37
         Me.Label24.Text = "Furniture Type"
         '
@@ -958,9 +1015,10 @@ Partial Class MainPage
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(133, 178)
+        Me.Label25.Location = New System.Drawing.Point(156, 246)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(135, 28)
+        Me.Label25.Size = New System.Drawing.Size(167, 36)
         Me.Label25.TabIndex = 36
         Me.Label25.Text = "Furniture Id"
         '
@@ -980,9 +1038,10 @@ Partial Class MainPage
         Me.messP.Controls.Add(Me.Label30)
         Me.messP.Controls.Add(Me.Label31)
         Me.messP.Controls.Add(Me.Label32)
-        Me.messP.Location = New System.Drawing.Point(259, 59)
+        Me.messP.Location = New System.Drawing.Point(345, 73)
+        Me.messP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.messP.Name = "messP"
-        Me.messP.Size = New System.Drawing.Size(1015, 634)
+        Me.messP.Size = New System.Drawing.Size(1353, 780)
         Me.messP.TabIndex = 6
         '
         'mUpdate
@@ -992,9 +1051,10 @@ Partial Class MainPage
         Me.mUpdate.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.mUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.mUpdate.Image = Global.DBMSproject.My.Resources.Resources.sace1
-        Me.mUpdate.Location = New System.Drawing.Point(515, 522)
+        Me.mUpdate.Location = New System.Drawing.Point(687, 642)
+        Me.mUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mUpdate.Name = "mUpdate"
-        Me.mUpdate.Size = New System.Drawing.Size(124, 35)
+        Me.mUpdate.Size = New System.Drawing.Size(165, 43)
         Me.mUpdate.TabIndex = 56
         Me.mUpdate.Text = "  Update"
         Me.mUpdate.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1007,9 +1067,10 @@ Partial Class MainPage
         Me.Label4.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Label4.Font = New System.Drawing.Font("Modern No. 20", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(35, 26)
+        Me.Label4.Location = New System.Drawing.Point(47, 32)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(185, 41)
+        Me.Label4.Size = New System.Drawing.Size(230, 51)
         Me.Label4.TabIndex = 55
         Me.Label4.Text = "Mess Info"
         '
@@ -1020,9 +1081,10 @@ Partial Class MainPage
         Me.mView.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.mView.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.mView.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.mView.Location = New System.Drawing.Point(742, 523)
+        Me.mView.Location = New System.Drawing.Point(989, 644)
+        Me.mView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mView.Name = "mView"
-        Me.mView.Size = New System.Drawing.Size(124, 35)
+        Me.mView.Size = New System.Drawing.Size(165, 43)
         Me.mView.TabIndex = 54
         Me.mView.Text = "   View All"
         Me.mView.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1035,9 +1097,10 @@ Partial Class MainPage
         Me.mClear.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.mClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.mClear.Image = Global.DBMSproject.My.Resources.Resources.refresh11
-        Me.mClear.Location = New System.Drawing.Point(660, 174)
+        Me.mClear.Location = New System.Drawing.Point(880, 214)
+        Me.mClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mClear.Name = "mClear"
-        Me.mClear.Size = New System.Drawing.Size(45, 39)
+        Me.mClear.Size = New System.Drawing.Size(60, 48)
         Me.mClear.TabIndex = 53
         Me.mClear.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.mClear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1050,9 +1113,10 @@ Partial Class MainPage
         Me.mDelete.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.mDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.mDelete.Image = Global.DBMSproject.My.Resources.Resources.delet
-        Me.mDelete.Location = New System.Drawing.Point(296, 523)
+        Me.mDelete.Location = New System.Drawing.Point(395, 644)
+        Me.mDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mDelete.Name = "mDelete"
-        Me.mDelete.Size = New System.Drawing.Size(124, 35)
+        Me.mDelete.Size = New System.Drawing.Size(165, 43)
         Me.mDelete.TabIndex = 52
         Me.mDelete.Text = " Delete"
         Me.mDelete.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1065,9 +1129,10 @@ Partial Class MainPage
         Me.mAdd.FlatAppearance.BorderSize = 0
         Me.mAdd.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.mAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.mAdd.Location = New System.Drawing.Point(73, 523)
+        Me.mAdd.Location = New System.Drawing.Point(97, 644)
+        Me.mAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mAdd.Name = "mAdd"
-        Me.mAdd.Size = New System.Drawing.Size(124, 35)
+        Me.mAdd.Size = New System.Drawing.Size(165, 43)
         Me.mAdd.TabIndex = 51
         Me.mAdd.Text = "    Add"
         Me.mAdd.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1082,9 +1147,10 @@ Partial Class MainPage
         Me.mSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.mSearch.Image = Global.DBMSproject.My.Resources.Resources.search21
         Me.mSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.mSearch.Location = New System.Drawing.Point(530, 176)
+        Me.mSearch.Location = New System.Drawing.Point(707, 217)
+        Me.mSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mSearch.Name = "mSearch"
-        Me.mSearch.Size = New System.Drawing.Size(124, 35)
+        Me.mSearch.Size = New System.Drawing.Size(165, 43)
         Me.mSearch.TabIndex = 50
         Me.mSearch.Text = "  Search"
         Me.mSearch.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1094,34 +1160,38 @@ Partial Class MainPage
         'mIncId
         '
         Me.mIncId.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mIncId.Location = New System.Drawing.Point(309, 175)
+        Me.mIncId.Location = New System.Drawing.Point(412, 215)
+        Me.mIncId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mIncId.Name = "mIncId"
-        Me.mIncId.Size = New System.Drawing.Size(215, 35)
+        Me.mIncId.Size = New System.Drawing.Size(285, 42)
         Me.mIncId.TabIndex = 49
         '
         'mExp
         '
         Me.mExp.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mExp.Location = New System.Drawing.Point(309, 268)
+        Me.mExp.Location = New System.Drawing.Point(412, 330)
+        Me.mExp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mExp.Name = "mExp"
-        Me.mExp.Size = New System.Drawing.Size(345, 35)
+        Me.mExp.Size = New System.Drawing.Size(459, 42)
         Me.mExp.TabIndex = 48
         '
         'mTime
         '
         Me.mTime.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mTime.Location = New System.Drawing.Point(309, 361)
+        Me.mTime.Location = New System.Drawing.Point(412, 444)
+        Me.mTime.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.mTime.Name = "mTime"
-        Me.mTime.Size = New System.Drawing.Size(345, 35)
+        Me.mTime.Size = New System.Drawing.Size(459, 42)
         Me.mTime.TabIndex = 47
         '
         'Label30
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(114, 374)
+        Me.Label30.Location = New System.Drawing.Point(152, 460)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(139, 28)
+        Me.Label30.Size = New System.Drawing.Size(170, 36)
         Me.Label30.TabIndex = 38
         Me.Label30.Text = "Mess Timing"
         '
@@ -1129,9 +1199,10 @@ Partial Class MainPage
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(113, 277)
+        Me.Label31.Location = New System.Drawing.Point(151, 341)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(194, 28)
+        Me.Label31.Size = New System.Drawing.Size(239, 36)
         Me.Label31.TabIndex = 37
         Me.Label31.Text = "Monthly Expenses"
         '
@@ -1139,9 +1210,10 @@ Partial Class MainPage
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(113, 180)
+        Me.Label32.Location = New System.Drawing.Point(151, 222)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(132, 28)
+        Me.Label32.Size = New System.Drawing.Size(164, 36)
         Me.Label32.TabIndex = 36
         Me.Label32.Text = "Incharge ID"
         '
@@ -1161,9 +1233,10 @@ Partial Class MainPage
         Me.feesP.Controls.Add(Me.Label44)
         Me.feesP.Controls.Add(Me.Label45)
         Me.feesP.Controls.Add(Me.Label46)
-        Me.feesP.Location = New System.Drawing.Point(259, 58)
+        Me.feesP.Location = New System.Drawing.Point(345, 71)
+        Me.feesP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feesP.Name = "feesP"
-        Me.feesP.Size = New System.Drawing.Size(1015, 634)
+        Me.feesP.Size = New System.Drawing.Size(1353, 780)
         Me.feesP.TabIndex = 7
         '
         'feeUpdate
@@ -1173,9 +1246,10 @@ Partial Class MainPage
         Me.feeUpdate.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.feeUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.feeUpdate.Image = Global.DBMSproject.My.Resources.Resources.sace1
-        Me.feeUpdate.Location = New System.Drawing.Point(515, 522)
+        Me.feeUpdate.Location = New System.Drawing.Point(687, 642)
+        Me.feeUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feeUpdate.Name = "feeUpdate"
-        Me.feeUpdate.Size = New System.Drawing.Size(124, 35)
+        Me.feeUpdate.Size = New System.Drawing.Size(165, 43)
         Me.feeUpdate.TabIndex = 56
         Me.feeUpdate.Text = "  Update"
         Me.feeUpdate.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1188,9 +1262,10 @@ Partial Class MainPage
         Me.Label5.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Label5.Font = New System.Drawing.Font("Modern No. 20", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(45, 26)
+        Me.Label5.Location = New System.Drawing.Point(60, 32)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(178, 41)
+        Me.Label5.Size = New System.Drawing.Size(221, 51)
         Me.Label5.TabIndex = 55
         Me.Label5.Text = "Fees Info"
         '
@@ -1201,9 +1276,10 @@ Partial Class MainPage
         Me.feeView.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.feeView.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.feeView.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.feeView.Location = New System.Drawing.Point(742, 522)
+        Me.feeView.Location = New System.Drawing.Point(989, 642)
+        Me.feeView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feeView.Name = "feeView"
-        Me.feeView.Size = New System.Drawing.Size(124, 35)
+        Me.feeView.Size = New System.Drawing.Size(165, 43)
         Me.feeView.TabIndex = 54
         Me.feeView.Text = "   View All"
         Me.feeView.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1216,9 +1292,10 @@ Partial Class MainPage
         Me.feeClear.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.feeClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.feeClear.Image = Global.DBMSproject.My.Resources.Resources.refresh11
-        Me.feeClear.Location = New System.Drawing.Point(673, 154)
+        Me.feeClear.Location = New System.Drawing.Point(897, 190)
+        Me.feeClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feeClear.Name = "feeClear"
-        Me.feeClear.Size = New System.Drawing.Size(41, 36)
+        Me.feeClear.Size = New System.Drawing.Size(55, 44)
         Me.feeClear.TabIndex = 53
         Me.feeClear.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.feeClear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1231,9 +1308,10 @@ Partial Class MainPage
         Me.feeDelete.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.feeDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.feeDelete.Image = Global.DBMSproject.My.Resources.Resources.delet
-        Me.feeDelete.Location = New System.Drawing.Point(296, 522)
+        Me.feeDelete.Location = New System.Drawing.Point(395, 642)
+        Me.feeDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feeDelete.Name = "feeDelete"
-        Me.feeDelete.Size = New System.Drawing.Size(124, 35)
+        Me.feeDelete.Size = New System.Drawing.Size(165, 43)
         Me.feeDelete.TabIndex = 52
         Me.feeDelete.Text = " Delete"
         Me.feeDelete.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1246,9 +1324,10 @@ Partial Class MainPage
         Me.feeAdd.FlatAppearance.BorderSize = 0
         Me.feeAdd.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.feeAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.feeAdd.Location = New System.Drawing.Point(73, 522)
+        Me.feeAdd.Location = New System.Drawing.Point(97, 642)
+        Me.feeAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feeAdd.Name = "feeAdd"
-        Me.feeAdd.Size = New System.Drawing.Size(124, 35)
+        Me.feeAdd.Size = New System.Drawing.Size(165, 43)
         Me.feeAdd.TabIndex = 51
         Me.feeAdd.Text = "Add"
         Me.feeAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1262,9 +1341,10 @@ Partial Class MainPage
         Me.feeSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.feeSearch.Image = Global.DBMSproject.My.Resources.Resources.search21
         Me.feeSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.feeSearch.Location = New System.Drawing.Point(543, 156)
+        Me.feeSearch.Location = New System.Drawing.Point(724, 192)
+        Me.feeSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feeSearch.Name = "feeSearch"
-        Me.feeSearch.Size = New System.Drawing.Size(124, 35)
+        Me.feeSearch.Size = New System.Drawing.Size(165, 43)
         Me.feeSearch.TabIndex = 50
         Me.feeSearch.Text = "  Search"
         Me.feeSearch.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1274,34 +1354,38 @@ Partial Class MainPage
         'feeStdId
         '
         Me.feeStdId.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.feeStdId.Location = New System.Drawing.Point(322, 157)
+        Me.feeStdId.Location = New System.Drawing.Point(429, 193)
+        Me.feeStdId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feeStdId.Name = "feeStdId"
-        Me.feeStdId.Size = New System.Drawing.Size(215, 35)
+        Me.feeStdId.Size = New System.Drawing.Size(285, 42)
         Me.feeStdId.TabIndex = 49
         '
         'feeMonth
         '
         Me.feeMonth.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.feeMonth.Location = New System.Drawing.Point(322, 269)
+        Me.feeMonth.Location = New System.Drawing.Point(429, 331)
+        Me.feeMonth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feeMonth.Name = "feeMonth"
-        Me.feeMonth.Size = New System.Drawing.Size(345, 35)
+        Me.feeMonth.Size = New System.Drawing.Size(459, 42)
         Me.feeMonth.TabIndex = 48
         '
         'feeStatus
         '
         Me.feeStatus.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.feeStatus.Location = New System.Drawing.Point(322, 381)
+        Me.feeStatus.Location = New System.Drawing.Point(429, 469)
+        Me.feeStatus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.feeStatus.Name = "feeStatus"
-        Me.feeStatus.Size = New System.Drawing.Size(345, 35)
+        Me.feeStatus.Size = New System.Drawing.Size(459, 42)
         Me.feeStatus.TabIndex = 47
         '
         'Label44
         '
         Me.Label44.AutoSize = True
         Me.Label44.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(121, 389)
+        Me.Label44.Location = New System.Drawing.Point(161, 479)
+        Me.Label44.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(123, 28)
+        Me.Label44.Size = New System.Drawing.Size(154, 36)
         Me.Label44.TabIndex = 38
         Me.Label44.Text = "Fees Status"
         '
@@ -1309,9 +1393,10 @@ Partial Class MainPage
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(122, 273)
+        Me.Label45.Location = New System.Drawing.Point(163, 336)
+        Me.Label45.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(127, 28)
+        Me.Label45.Size = New System.Drawing.Size(158, 36)
         Me.Label45.TabIndex = 37
         Me.Label45.Text = "Fees Month"
         '
@@ -1319,9 +1404,10 @@ Partial Class MainPage
         '
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(122, 157)
+        Me.Label46.Location = New System.Drawing.Point(163, 193)
+        Me.Label46.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(115, 28)
+        Me.Label46.Size = New System.Drawing.Size(143, 36)
         Me.Label46.TabIndex = 36
         Me.Label46.Text = "Student Id"
         '
@@ -1345,9 +1431,10 @@ Partial Class MainPage
         Me.hostelP.Controls.Add(Me.Label51)
         Me.hostelP.Controls.Add(Me.Label52)
         Me.hostelP.Controls.Add(Me.Label53)
-        Me.hostelP.Location = New System.Drawing.Point(259, 58)
+        Me.hostelP.Location = New System.Drawing.Point(345, 71)
+        Me.hostelP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hostelP.Name = "hostelP"
-        Me.hostelP.Size = New System.Drawing.Size(1015, 634)
+        Me.hostelP.Size = New System.Drawing.Size(1353, 780)
         Me.hostelP.TabIndex = 8
         '
         'hoUpdate
@@ -1357,9 +1444,10 @@ Partial Class MainPage
         Me.hoUpdate.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hoUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.hoUpdate.Image = Global.DBMSproject.My.Resources.Resources.sace1
-        Me.hoUpdate.Location = New System.Drawing.Point(519, 574)
+        Me.hoUpdate.Location = New System.Drawing.Point(692, 706)
+        Me.hoUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoUpdate.Name = "hoUpdate"
-        Me.hoUpdate.Size = New System.Drawing.Size(124, 35)
+        Me.hoUpdate.Size = New System.Drawing.Size(165, 43)
         Me.hoUpdate.TabIndex = 56
         Me.hoUpdate.Text = "  Update"
         Me.hoUpdate.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1372,9 +1460,10 @@ Partial Class MainPage
         Me.Label6.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Label6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Label6.Font = New System.Drawing.Font("Modern No. 20", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(44, 26)
+        Me.Label6.Location = New System.Drawing.Point(59, 32)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(215, 41)
+        Me.Label6.Size = New System.Drawing.Size(266, 51)
         Me.Label6.TabIndex = 55
         Me.Label6.Text = "Hostel Info"
         '
@@ -1385,9 +1474,10 @@ Partial Class MainPage
         Me.hoView.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hoView.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.hoView.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.hoView.Location = New System.Drawing.Point(753, 574)
+        Me.hoView.Location = New System.Drawing.Point(1004, 706)
+        Me.hoView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoView.Name = "hoView"
-        Me.hoView.Size = New System.Drawing.Size(124, 35)
+        Me.hoView.Size = New System.Drawing.Size(165, 43)
         Me.hoView.TabIndex = 54
         Me.hoView.Text = "   View All"
         Me.hoView.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1400,9 +1490,10 @@ Partial Class MainPage
         Me.hoClear.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hoClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.hoClear.Image = Global.DBMSproject.My.Resources.Resources.refresh11
-        Me.hoClear.Location = New System.Drawing.Point(692, 108)
+        Me.hoClear.Location = New System.Drawing.Point(923, 133)
+        Me.hoClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoClear.Name = "hoClear"
-        Me.hoClear.Size = New System.Drawing.Size(47, 35)
+        Me.hoClear.Size = New System.Drawing.Size(63, 43)
         Me.hoClear.TabIndex = 53
         Me.hoClear.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.hoClear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1415,9 +1506,10 @@ Partial Class MainPage
         Me.hoDelete.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hoDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.hoDelete.Image = Global.DBMSproject.My.Resources.Resources.delet
-        Me.hoDelete.Location = New System.Drawing.Point(307, 574)
+        Me.hoDelete.Location = New System.Drawing.Point(409, 706)
+        Me.hoDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoDelete.Name = "hoDelete"
-        Me.hoDelete.Size = New System.Drawing.Size(124, 35)
+        Me.hoDelete.Size = New System.Drawing.Size(165, 43)
         Me.hoDelete.TabIndex = 52
         Me.hoDelete.Text = " Delete"
         Me.hoDelete.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1430,9 +1522,10 @@ Partial Class MainPage
         Me.hoAdd.FlatAppearance.BorderSize = 0
         Me.hoAdd.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hoAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.hoAdd.Location = New System.Drawing.Point(84, 574)
+        Me.hoAdd.Location = New System.Drawing.Point(112, 706)
+        Me.hoAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoAdd.Name = "hoAdd"
-        Me.hoAdd.Size = New System.Drawing.Size(124, 35)
+        Me.hoAdd.Size = New System.Drawing.Size(165, 43)
         Me.hoAdd.TabIndex = 51
         Me.hoAdd.Text = "Add"
         Me.hoAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1446,9 +1539,10 @@ Partial Class MainPage
         Me.hoSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.hoSearch.Image = Global.DBMSproject.My.Resources.Resources.search21
         Me.hoSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.hoSearch.Location = New System.Drawing.Point(551, 108)
+        Me.hoSearch.Location = New System.Drawing.Point(735, 133)
+        Me.hoSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoSearch.Name = "hoSearch"
-        Me.hoSearch.Size = New System.Drawing.Size(124, 35)
+        Me.hoSearch.Size = New System.Drawing.Size(165, 43)
         Me.hoSearch.TabIndex = 50
         Me.hoSearch.Text = "  Search"
         Me.hoSearch.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1458,50 +1552,56 @@ Partial Class MainPage
         'hoBdNum
         '
         Me.hoBdNum.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.hoBdNum.Location = New System.Drawing.Point(330, 110)
+        Me.hoBdNum.Location = New System.Drawing.Point(440, 135)
+        Me.hoBdNum.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoBdNum.Name = "hoBdNum"
-        Me.hoBdNum.Size = New System.Drawing.Size(215, 35)
+        Me.hoBdNum.Size = New System.Drawing.Size(285, 42)
         Me.hoBdNum.TabIndex = 49
         '
         'hoNOR
         '
         Me.hoNOR.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.hoNOR.Location = New System.Drawing.Point(330, 194)
+        Me.hoNOR.Location = New System.Drawing.Point(440, 239)
+        Me.hoNOR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoNOR.Name = "hoNOR"
-        Me.hoNOR.Size = New System.Drawing.Size(345, 35)
+        Me.hoNOR.Size = New System.Drawing.Size(459, 42)
         Me.hoNOR.TabIndex = 48
         '
         'hoNOS
         '
         Me.hoNOS.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.hoNOS.Location = New System.Drawing.Point(330, 278)
+        Me.hoNOS.Location = New System.Drawing.Point(440, 342)
+        Me.hoNOS.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoNOS.Name = "hoNOS"
-        Me.hoNOS.Size = New System.Drawing.Size(345, 35)
+        Me.hoNOS.Size = New System.Drawing.Size(459, 42)
         Me.hoNOS.TabIndex = 47
         '
         'hoAnnualExp
         '
         Me.hoAnnualExp.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.hoAnnualExp.Location = New System.Drawing.Point(330, 362)
+        Me.hoAnnualExp.Location = New System.Drawing.Point(440, 446)
+        Me.hoAnnualExp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoAnnualExp.Name = "hoAnnualExp"
-        Me.hoAnnualExp.Size = New System.Drawing.Size(345, 35)
+        Me.hoAnnualExp.Size = New System.Drawing.Size(459, 42)
         Me.hoAnnualExp.TabIndex = 46
         '
         'hoLocation
         '
         Me.hoLocation.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.hoLocation.Location = New System.Drawing.Point(330, 446)
+        Me.hoLocation.Location = New System.Drawing.Point(440, 549)
+        Me.hoLocation.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.hoLocation.Name = "hoLocation"
-        Me.hoLocation.Size = New System.Drawing.Size(345, 35)
+        Me.hoLocation.Size = New System.Drawing.Size(459, 42)
         Me.hoLocation.TabIndex = 45
         '
         'Label49
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(103, 458)
+        Me.Label49.Location = New System.Drawing.Point(137, 564)
+        Me.Label49.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(100, 28)
+        Me.Label49.Size = New System.Drawing.Size(125, 36)
         Me.Label49.TabIndex = 40
         Me.Label49.Text = "Location"
         '
@@ -1509,9 +1609,10 @@ Partial Class MainPage
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(103, 371)
+        Me.Label50.Location = New System.Drawing.Point(137, 457)
+        Me.Label50.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(184, 28)
+        Me.Label50.Size = New System.Drawing.Size(227, 36)
         Me.Label50.TabIndex = 39
         Me.Label50.Text = "Annual Expenses"
         '
@@ -1519,9 +1620,10 @@ Partial Class MainPage
         '
         Me.Label51.AutoSize = True
         Me.Label51.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(103, 284)
+        Me.Label51.Location = New System.Drawing.Point(137, 350)
+        Me.Label51.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(209, 28)
+        Me.Label51.Size = New System.Drawing.Size(258, 36)
         Me.Label51.TabIndex = 38
         Me.Label51.Text = "Number of Students"
         '
@@ -1529,9 +1631,10 @@ Partial Class MainPage
         '
         Me.Label52.AutoSize = True
         Me.Label52.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(103, 197)
+        Me.Label52.Location = New System.Drawing.Point(137, 242)
+        Me.Label52.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(194, 28)
+        Me.Label52.Size = New System.Drawing.Size(238, 36)
         Me.Label52.TabIndex = 37
         Me.Label52.Text = "Number of Rooms"
         '
@@ -1539,9 +1642,10 @@ Partial Class MainPage
         '
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(103, 110)
+        Me.Label53.Location = New System.Drawing.Point(137, 135)
+        Me.Label53.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(185, 28)
+        Me.Label53.Size = New System.Drawing.Size(225, 36)
         Me.Label53.TabIndex = 36
         Me.Label53.Text = "Building Number"
         '
@@ -1565,9 +1669,10 @@ Partial Class MainPage
         Me.messEmployeeP.Controls.Add(Me.Label58)
         Me.messEmployeeP.Controls.Add(Me.Label59)
         Me.messEmployeeP.Controls.Add(Me.Label60)
-        Me.messEmployeeP.Location = New System.Drawing.Point(258, 59)
+        Me.messEmployeeP.Location = New System.Drawing.Point(344, 73)
+        Me.messEmployeeP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.messEmployeeP.Name = "messEmployeeP"
-        Me.messEmployeeP.Size = New System.Drawing.Size(1015, 634)
+        Me.messEmployeeP.Size = New System.Drawing.Size(1353, 780)
         Me.messEmployeeP.TabIndex = 9
         '
         'empUpdate
@@ -1577,9 +1682,10 @@ Partial Class MainPage
         Me.empUpdate.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.empUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.empUpdate.Image = Global.DBMSproject.My.Resources.Resources.sace1
-        Me.empUpdate.Location = New System.Drawing.Point(520, 572)
+        Me.empUpdate.Location = New System.Drawing.Point(678, 689)
+        Me.empUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empUpdate.Name = "empUpdate"
-        Me.empUpdate.Size = New System.Drawing.Size(124, 35)
+        Me.empUpdate.Size = New System.Drawing.Size(165, 43)
         Me.empUpdate.TabIndex = 56
         Me.empUpdate.Text = "  Update"
         Me.empUpdate.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1593,8 +1699,9 @@ Partial Class MainPage
         Me.Label7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Label7.Font = New System.Drawing.Font("Modern No. 20", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(43, 26)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(362, 41)
+        Me.Label7.Size = New System.Drawing.Size(451, 51)
         Me.Label7.TabIndex = 55
         Me.Label7.Text = "Mess Employee Info"
         '
@@ -1605,9 +1712,10 @@ Partial Class MainPage
         Me.empView.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.empView.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.empView.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.empView.Location = New System.Drawing.Point(752, 574)
+        Me.empView.Location = New System.Drawing.Point(988, 691)
+        Me.empView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empView.Name = "empView"
-        Me.empView.Size = New System.Drawing.Size(124, 35)
+        Me.empView.Size = New System.Drawing.Size(165, 43)
         Me.empView.TabIndex = 54
         Me.empView.Text = "   View All"
         Me.empView.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1620,9 +1728,10 @@ Partial Class MainPage
         Me.empClear.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.empClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.empClear.Image = Global.DBMSproject.My.Resources.Resources.refresh11
-        Me.empClear.Location = New System.Drawing.Point(655, 112)
+        Me.empClear.Location = New System.Drawing.Point(877, 177)
+        Me.empClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empClear.Name = "empClear"
-        Me.empClear.Size = New System.Drawing.Size(51, 37)
+        Me.empClear.Size = New System.Drawing.Size(68, 46)
         Me.empClear.TabIndex = 53
         Me.empClear.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.empClear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1635,9 +1744,10 @@ Partial Class MainPage
         Me.empDelete.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.empDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.empDelete.Image = Global.DBMSproject.My.Resources.Resources.delet
-        Me.empDelete.Location = New System.Drawing.Point(306, 574)
+        Me.empDelete.Location = New System.Drawing.Point(393, 691)
+        Me.empDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empDelete.Name = "empDelete"
-        Me.empDelete.Size = New System.Drawing.Size(124, 35)
+        Me.empDelete.Size = New System.Drawing.Size(165, 43)
         Me.empDelete.TabIndex = 52
         Me.empDelete.Text = " Delete"
         Me.empDelete.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1650,11 +1760,15 @@ Partial Class MainPage
         Me.empAdd.FlatAppearance.BorderSize = 0
         Me.empAdd.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.empAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.empAdd.Location = New System.Drawing.Point(83, 574)
+        Me.empAdd.Image = Global.DBMSproject.My.Resources.Resources.add_members3
+        Me.empAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.empAdd.Location = New System.Drawing.Point(96, 691)
+        Me.empAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empAdd.Name = "empAdd"
-        Me.empAdd.Size = New System.Drawing.Size(124, 35)
+        Me.empAdd.Size = New System.Drawing.Size(165, 43)
         Me.empAdd.TabIndex = 51
-        Me.empAdd.Text = "Add"
+        Me.empAdd.Text = "   Add"
+        Me.empAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.empAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.empAdd.UseVisualStyleBackColor = False
         '
@@ -1666,9 +1780,10 @@ Partial Class MainPage
         Me.empSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.empSearch.Image = Global.DBMSproject.My.Resources.Resources.search21
         Me.empSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.empSearch.Location = New System.Drawing.Point(525, 112)
+        Me.empSearch.Location = New System.Drawing.Point(704, 177)
+        Me.empSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empSearch.Name = "empSearch"
-        Me.empSearch.Size = New System.Drawing.Size(124, 35)
+        Me.empSearch.Size = New System.Drawing.Size(165, 43)
         Me.empSearch.TabIndex = 50
         Me.empSearch.Text = "  Search"
         Me.empSearch.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1678,50 +1793,56 @@ Partial Class MainPage
         'empId
         '
         Me.empId.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.empId.Location = New System.Drawing.Point(304, 113)
+        Me.empId.Location = New System.Drawing.Point(409, 178)
+        Me.empId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empId.Name = "empId"
-        Me.empId.Size = New System.Drawing.Size(215, 35)
+        Me.empId.Size = New System.Drawing.Size(285, 42)
         Me.empId.TabIndex = 49
         '
         'empName
         '
         Me.empName.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.empName.Location = New System.Drawing.Point(304, 178)
+        Me.empName.Location = New System.Drawing.Point(409, 258)
+        Me.empName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empName.Name = "empName"
-        Me.empName.Size = New System.Drawing.Size(345, 35)
+        Me.empName.Size = New System.Drawing.Size(459, 42)
         Me.empName.TabIndex = 48
         '
         'empaddress
         '
         Me.empaddress.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.empaddress.Location = New System.Drawing.Point(304, 243)
+        Me.empaddress.Location = New System.Drawing.Point(409, 338)
+        Me.empaddress.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empaddress.Name = "empaddress"
-        Me.empaddress.Size = New System.Drawing.Size(345, 35)
+        Me.empaddress.Size = New System.Drawing.Size(459, 42)
         Me.empaddress.TabIndex = 47
         '
         'empSalary
         '
         Me.empSalary.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.empSalary.Location = New System.Drawing.Point(304, 308)
+        Me.empSalary.Location = New System.Drawing.Point(409, 418)
+        Me.empSalary.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empSalary.Name = "empSalary"
-        Me.empSalary.Size = New System.Drawing.Size(345, 35)
+        Me.empSalary.Size = New System.Drawing.Size(459, 42)
         Me.empSalary.TabIndex = 46
         '
         'empPhone
         '
         Me.empPhone.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.empPhone.Location = New System.Drawing.Point(304, 373)
+        Me.empPhone.Location = New System.Drawing.Point(409, 498)
+        Me.empPhone.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.empPhone.Name = "empPhone"
-        Me.empPhone.Size = New System.Drawing.Size(345, 35)
+        Me.empPhone.Size = New System.Drawing.Size(459, 42)
         Me.empPhone.TabIndex = 45
         '
         'Label56
         '
         Me.Label56.AutoSize = True
         Me.Label56.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(104, 373)
+        Me.Label56.Location = New System.Drawing.Point(143, 498)
+        Me.Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(166, 28)
+        Me.Label56.Size = New System.Drawing.Size(203, 36)
         Me.Label56.TabIndex = 40
         Me.Label56.Text = "Mobile Number"
         '
@@ -1729,9 +1850,10 @@ Partial Class MainPage
         '
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(104, 308)
+        Me.Label57.Location = New System.Drawing.Point(143, 418)
+        Me.Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(76, 28)
+        Me.Label57.Size = New System.Drawing.Size(94, 36)
         Me.Label57.TabIndex = 39
         Me.Label57.Text = "Salary"
         '
@@ -1739,9 +1861,10 @@ Partial Class MainPage
         '
         Me.Label58.AutoSize = True
         Me.Label58.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(104, 243)
+        Me.Label58.Location = New System.Drawing.Point(143, 338)
+        Me.Label58.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(90, 28)
+        Me.Label58.Size = New System.Drawing.Size(112, 36)
         Me.Label58.TabIndex = 38
         Me.Label58.Text = "Address"
         '
@@ -1749,9 +1872,10 @@ Partial Class MainPage
         '
         Me.Label59.AutoSize = True
         Me.Label59.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(104, 178)
+        Me.Label59.Location = New System.Drawing.Point(143, 258)
+        Me.Label59.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(175, 28)
+        Me.Label59.Size = New System.Drawing.Size(215, 36)
         Me.Label59.TabIndex = 37
         Me.Label59.Text = "Employee Name"
         '
@@ -1759,9 +1883,10 @@ Partial Class MainPage
         '
         Me.Label60.AutoSize = True
         Me.Label60.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.Location = New System.Drawing.Point(104, 113)
+        Me.Label60.Location = New System.Drawing.Point(143, 178)
+        Me.Label60.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(138, 28)
+        Me.Label60.Size = New System.Drawing.Size(170, 36)
         Me.Label60.TabIndex = 36
         Me.Label60.Text = "Employee Id"
         '
@@ -1787,9 +1912,10 @@ Partial Class MainPage
         Me.visitorsP.Controls.Add(Me.Label37)
         Me.visitorsP.Controls.Add(Me.Label38)
         Me.visitorsP.Controls.Add(Me.CNIC)
-        Me.visitorsP.Location = New System.Drawing.Point(257, 60)
+        Me.visitorsP.Location = New System.Drawing.Point(343, 74)
+        Me.visitorsP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.visitorsP.Name = "visitorsP"
-        Me.visitorsP.Size = New System.Drawing.Size(1015, 634)
+        Me.visitorsP.Size = New System.Drawing.Size(1353, 780)
         Me.visitorsP.TabIndex = 10
         '
         'vUpdate
@@ -1799,9 +1925,10 @@ Partial Class MainPage
         Me.vUpdate.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.vUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.vUpdate.Image = Global.DBMSproject.My.Resources.Resources.sace1
-        Me.vUpdate.Location = New System.Drawing.Point(488, 547)
+        Me.vUpdate.Location = New System.Drawing.Point(651, 673)
+        Me.vUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vUpdate.Name = "vUpdate"
-        Me.vUpdate.Size = New System.Drawing.Size(124, 35)
+        Me.vUpdate.Size = New System.Drawing.Size(165, 43)
         Me.vUpdate.TabIndex = 56
         Me.vUpdate.Text = "  Update"
         Me.vUpdate.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1814,9 +1941,10 @@ Partial Class MainPage
         Me.Label8.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Label8.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Label8.Font = New System.Drawing.Font("Modern No. 20", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(35, 26)
+        Me.Label8.Location = New System.Drawing.Point(47, 32)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(238, 41)
+        Me.Label8.Size = New System.Drawing.Size(294, 51)
         Me.Label8.TabIndex = 55
         Me.Label8.Text = "Visitors Info"
         '
@@ -1827,9 +1955,10 @@ Partial Class MainPage
         Me.vView.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.vView.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.vView.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.vView.Location = New System.Drawing.Point(719, 547)
+        Me.vView.Location = New System.Drawing.Point(959, 673)
+        Me.vView.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vView.Name = "vView"
-        Me.vView.Size = New System.Drawing.Size(124, 35)
+        Me.vView.Size = New System.Drawing.Size(165, 43)
         Me.vView.TabIndex = 54
         Me.vView.Text = "   View All"
         Me.vView.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1842,9 +1971,10 @@ Partial Class MainPage
         Me.vClear.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.vClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.vClear.Image = Global.DBMSproject.My.Resources.Resources.refresh11
-        Me.vClear.Location = New System.Drawing.Point(646, 100)
+        Me.vClear.Location = New System.Drawing.Point(861, 123)
+        Me.vClear.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vClear.Name = "vClear"
-        Me.vClear.Size = New System.Drawing.Size(42, 40)
+        Me.vClear.Size = New System.Drawing.Size(56, 49)
         Me.vClear.TabIndex = 53
         Me.vClear.TextAlign = System.Drawing.ContentAlignment.TopLeft
         Me.vClear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1857,9 +1987,10 @@ Partial Class MainPage
         Me.vDelete.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.vDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.vDelete.Image = Global.DBMSproject.My.Resources.Resources.delet
-        Me.vDelete.Location = New System.Drawing.Point(273, 547)
+        Me.vDelete.Location = New System.Drawing.Point(364, 673)
+        Me.vDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vDelete.Name = "vDelete"
-        Me.vDelete.Size = New System.Drawing.Size(124, 35)
+        Me.vDelete.Size = New System.Drawing.Size(165, 43)
         Me.vDelete.TabIndex = 52
         Me.vDelete.Text = " Delete"
         Me.vDelete.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1872,9 +2003,10 @@ Partial Class MainPage
         Me.vAdd.FlatAppearance.BorderSize = 0
         Me.vAdd.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.vAdd.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.vAdd.Location = New System.Drawing.Point(50, 547)
+        Me.vAdd.Location = New System.Drawing.Point(67, 673)
+        Me.vAdd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vAdd.Name = "vAdd"
-        Me.vAdd.Size = New System.Drawing.Size(124, 35)
+        Me.vAdd.Size = New System.Drawing.Size(165, 43)
         Me.vAdd.TabIndex = 51
         Me.vAdd.Text = "Add"
         Me.vAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -1888,9 +2020,10 @@ Partial Class MainPage
         Me.vSearch.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.vSearch.Image = Global.DBMSproject.My.Resources.Resources.search21
         Me.vSearch.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.vSearch.Location = New System.Drawing.Point(517, 101)
+        Me.vSearch.Location = New System.Drawing.Point(689, 124)
+        Me.vSearch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vSearch.Name = "vSearch"
-        Me.vSearch.Size = New System.Drawing.Size(124, 35)
+        Me.vSearch.Size = New System.Drawing.Size(165, 43)
         Me.vSearch.TabIndex = 50
         Me.vSearch.Text = "  Search"
         Me.vSearch.TextAlign = System.Drawing.ContentAlignment.TopLeft
@@ -1900,58 +2033,65 @@ Partial Class MainPage
         'vCnic
         '
         Me.vCnic.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.vCnic.Location = New System.Drawing.Point(296, 101)
+        Me.vCnic.Location = New System.Drawing.Point(395, 124)
+        Me.vCnic.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vCnic.Name = "vCnic"
-        Me.vCnic.Size = New System.Drawing.Size(215, 35)
+        Me.vCnic.Size = New System.Drawing.Size(285, 42)
         Me.vCnic.TabIndex = 49
         '
         'vStdId
         '
         Me.vStdId.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.vStdId.Location = New System.Drawing.Point(296, 169)
+        Me.vStdId.Location = New System.Drawing.Point(395, 208)
+        Me.vStdId.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vStdId.Name = "vStdId"
-        Me.vStdId.Size = New System.Drawing.Size(345, 35)
+        Me.vStdId.Size = New System.Drawing.Size(459, 42)
         Me.vStdId.TabIndex = 48
         '
         'vName
         '
         Me.vName.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.vName.Location = New System.Drawing.Point(296, 237)
+        Me.vName.Location = New System.Drawing.Point(395, 292)
+        Me.vName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vName.Name = "vName"
-        Me.vName.Size = New System.Drawing.Size(345, 35)
+        Me.vName.Size = New System.Drawing.Size(459, 42)
         Me.vName.TabIndex = 47
         '
         'vTimeIn
         '
         Me.vTimeIn.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.vTimeIn.Location = New System.Drawing.Point(296, 305)
+        Me.vTimeIn.Location = New System.Drawing.Point(395, 375)
+        Me.vTimeIn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vTimeIn.Name = "vTimeIn"
-        Me.vTimeIn.Size = New System.Drawing.Size(345, 35)
+        Me.vTimeIn.Size = New System.Drawing.Size(459, 42)
         Me.vTimeIn.TabIndex = 46
         '
         'vTimeOut
         '
         Me.vTimeOut.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.vTimeOut.Location = New System.Drawing.Point(296, 373)
+        Me.vTimeOut.Location = New System.Drawing.Point(395, 459)
+        Me.vTimeOut.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vTimeOut.Name = "vTimeOut"
-        Me.vTimeOut.Size = New System.Drawing.Size(345, 35)
+        Me.vTimeOut.Size = New System.Drawing.Size(459, 42)
         Me.vTimeOut.TabIndex = 45
         '
         'vDate
         '
         Me.vDate.Font = New System.Drawing.Font("Perpetua", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.vDate.Location = New System.Drawing.Point(296, 441)
+        Me.vDate.Location = New System.Drawing.Point(395, 543)
+        Me.vDate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.vDate.Name = "vDate"
-        Me.vDate.Size = New System.Drawing.Size(345, 35)
+        Me.vDate.Size = New System.Drawing.Size(459, 42)
         Me.vDate.TabIndex = 44
         '
         'Label34
         '
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(96, 451)
+        Me.Label34.Location = New System.Drawing.Point(128, 555)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(59, 28)
+        Me.Label34.Size = New System.Drawing.Size(74, 36)
         Me.Label34.TabIndex = 41
         Me.Label34.Text = "Date"
         '
@@ -1959,9 +2099,10 @@ Partial Class MainPage
         '
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(96, 381)
+        Me.Label35.Location = New System.Drawing.Point(128, 469)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(119, 28)
+        Me.Label35.Size = New System.Drawing.Size(147, 36)
         Me.Label35.TabIndex = 40
         Me.Label35.Text = "Time-OUT"
         '
@@ -1969,9 +2110,10 @@ Partial Class MainPage
         '
         Me.lab.AutoSize = True
         Me.lab.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lab.Location = New System.Drawing.Point(96, 311)
+        Me.lab.Location = New System.Drawing.Point(128, 383)
+        Me.lab.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lab.Name = "lab"
-        Me.lab.Size = New System.Drawing.Size(97, 28)
+        Me.lab.Size = New System.Drawing.Size(119, 36)
         Me.lab.TabIndex = 39
         Me.lab.Text = "Time-IN"
         '
@@ -1979,9 +2121,10 @@ Partial Class MainPage
         '
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(96, 241)
+        Me.Label37.Location = New System.Drawing.Point(128, 297)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(144, 28)
+        Me.Label37.Size = New System.Drawing.Size(175, 36)
         Me.Label37.TabIndex = 38
         Me.Label37.Text = "Visitor Name"
         '
@@ -1989,9 +2132,10 @@ Partial Class MainPage
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(96, 171)
+        Me.Label38.Location = New System.Drawing.Point(128, 210)
+        Me.Label38.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(115, 28)
+        Me.Label38.Size = New System.Drawing.Size(143, 36)
         Me.Label38.TabIndex = 37
         Me.Label38.Text = "Student Id"
         '
@@ -1999,9 +2143,10 @@ Partial Class MainPage
         '
         Me.CNIC.AutoSize = True
         Me.CNIC.Font = New System.Drawing.Font("Bodoni MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CNIC.Location = New System.Drawing.Point(96, 101)
+        Me.CNIC.Location = New System.Drawing.Point(128, 124)
+        Me.CNIC.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.CNIC.Name = "CNIC"
-        Me.CNIC.Size = New System.Drawing.Size(63, 28)
+        Me.CNIC.Size = New System.Drawing.Size(77, 36)
         Me.CNIC.TabIndex = 36
         Me.CNIC.Text = "CNIC"
         '
@@ -2011,9 +2156,10 @@ Partial Class MainPage
         Me.tableP.Controls.Add(Me.tblExit)
         Me.tableP.Controls.Add(Me.DataGridView1)
         Me.tableP.Controls.Add(Me.Label17)
-        Me.tableP.Location = New System.Drawing.Point(257, 57)
+        Me.tableP.Location = New System.Drawing.Point(343, 70)
+        Me.tableP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tableP.Name = "tableP"
-        Me.tableP.Size = New System.Drawing.Size(910, 610)
+        Me.tableP.Size = New System.Drawing.Size(1213, 751)
         Me.tableP.TabIndex = 36
         '
         'tblExit
@@ -2023,9 +2169,10 @@ Partial Class MainPage
         Me.tblExit.Font = New System.Drawing.Font("Bodoni MT", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tblExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.tblExit.Image = Global.DBMSproject.My.Resources.Resources.exit2
-        Me.tblExit.Location = New System.Drawing.Point(736, 578)
+        Me.tblExit.Location = New System.Drawing.Point(981, 711)
+        Me.tblExit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.tblExit.Name = "tblExit"
-        Me.tblExit.Size = New System.Drawing.Size(124, 35)
+        Me.tblExit.Size = New System.Drawing.Size(165, 43)
         Me.tblExit.TabIndex = 37
         Me.tblExit.Text = "  Exit"
         Me.tblExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -2037,23 +2184,23 @@ Partial Class MainPage
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace
         Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(79, Byte), Integer))
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.MediumBlue
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(79, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.MediumBlue
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.EnableHeadersVisualStyles = False
-        Me.DataGridView1.Location = New System.Drawing.Point(28, 117)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
+        Me.DataGridView1.Location = New System.Drawing.Point(37, 144)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(831, 453)
+        Me.DataGridView1.Size = New System.Drawing.Size(1108, 558)
         Me.DataGridView1.TabIndex = 36
         '
         'Label17
@@ -2062,29 +2209,31 @@ Partial Class MainPage
         Me.Label17.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Label17.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Label17.Font = New System.Drawing.Font("Modern No. 20", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(34, 18)
+        Me.Label17.Location = New System.Drawing.Point(45, 22)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(114, 41)
+        Me.Label17.Size = New System.Drawing.Size(141, 51)
         Me.Label17.TabIndex = 35
         Me.Label17.Text = "Table"
         '
         'MainPage
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1167, 690)
+        Me.ClientSize = New System.Drawing.Size(1556, 849)
         Me.Controls.Add(Me.tableP)
         Me.Controls.Add(Me.studentsP)
-        Me.Controls.Add(Me.messEmployeeP)
         Me.Controls.Add(Me.roomsP)
-        Me.Controls.Add(Me.visitorsP)
-        Me.Controls.Add(Me.hostelP)
-        Me.Controls.Add(Me.feesP)
-        Me.Controls.Add(Me.messP)
         Me.Controls.Add(Me.furnitureP)
+        Me.Controls.Add(Me.messP)
+        Me.Controls.Add(Me.feesP)
+        Me.Controls.Add(Me.hostelP)
+        Me.Controls.Add(Me.messEmployeeP)
+        Me.Controls.Add(Me.visitorsP)
         Me.Controls.Add(Me.topPanel)
         Me.Controls.Add(Me.leftPanel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "MainPage"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
