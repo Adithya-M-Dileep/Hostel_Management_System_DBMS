@@ -1,8 +1,10 @@
 ﻿Imports MySql.Data.MySqlClient
 Imports System.Data.SqlClient
+Imports System.DateTime
+
 
 Public Class MainPage
-    Dim connection As New MySqlConnection("server=127.0.0.1;user id=root;database=dbms")
+    Dim connection As New MySqlConnection("server=127.0.0.1;user id=root;database=dbms;")
     Dim command As New MySqlCommand
     Dim adapter As New MySqlDataAdapter
     Dim DT As New DataTable
